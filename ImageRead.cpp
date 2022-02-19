@@ -4,6 +4,12 @@ using namespace std;
 class comp{
     private:
     int number;
+    public:
+    string name;
+    comp(){
+        
+    }
+
 };
 
 
