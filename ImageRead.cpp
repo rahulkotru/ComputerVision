@@ -1,19 +1,14 @@
-#include <stdio.h>
-#include <opencv2/opencv.hpp>
+#include <iostream>
+#include <opencv2/imgcodecs.hpp>
+#include<opencv2/highgui.hpp>
+#include<opencv2/imgproc.hpp>
 
 using namespace cv;
-int main(int argc, char** argv )
+using namespace std;
+void main()
 {
-
-    Mat image;
-    image = imread("D:/28_GitHub/ComputerVision/opencvtest/Resources/Test.png");
-    if ( !image.data )
-    {
-        printf("No image data \n");
-        return -1;
-    }
-    namedWindow("Display Image", WINDOW_AUTOSIZE );
-    imshow("Display Image", image);
-    waitKey(0);
-    return 0;
+string path="Resources/Test.png";
+Mat img=imread(path);
+imshow("Image",img);
+waitKey(0);
 }
