@@ -1,0 +1,10 @@
+^D:\28_GITHUB\COMPUTERVISION\TWOIMGPROCESSING\CMAKELISTS.TXT
+setlocal
+D:\15_MinGW\CMake\bin\cmake.exe -SD:/28_GitHub/ComputerVision/TwoImgProcessing -BD:/28_GitHub/ComputerVision/build --check-stamp-file D:/28_GitHub/ComputerVision/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

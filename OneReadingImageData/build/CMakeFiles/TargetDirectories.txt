@@ -1,9 +1,0 @@
-D:/28_GitHub/ComputerVision/OneReadingImageData/build/CMakeFiles/Experimental.dir
-D:/28_GitHub/ComputerVision/OneReadingImageData/build/CMakeFiles/Nightly.dir
-D:/28_GitHub/ComputerVision/OneReadingImageData/build/CMakeFiles/Continuous.dir
-D:/28_GitHub/ComputerVision/OneReadingImageData/build/CMakeFiles/NightlyMemoryCheck.dir
-D:/28_GitHub/ComputerVision/OneReadingImageData/build/CMakeFiles/OneReadingImageData.dir
-D:/28_GitHub/ComputerVision/OneReadingImageData/build/CMakeFiles/PACKAGE.dir
-D:/28_GitHub/ComputerVision/OneReadingImageData/build/CMakeFiles/RUN_TESTS.dir
-D:/28_GitHub/ComputerVision/OneReadingImageData/build/CMakeFiles/ALL_BUILD.dir
-D:/28_GitHub/ComputerVision/OneReadingImageData/build/CMakeFiles/ZERO_CHECK.dir
