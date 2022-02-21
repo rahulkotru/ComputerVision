@@ -28,7 +28,6 @@ while(true){
     webcam.read(cam);
     imshow("Webcam Feed",cam);
     waitKey(1);
-    destroyAllWindows();
 }
 
 return 0;
