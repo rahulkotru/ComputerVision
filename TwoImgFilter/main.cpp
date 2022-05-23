@@ -10,12 +10,12 @@ int main(){
     string path="D:/28_GitHub/ComputerVision/TwoImgFilter/asset/test.jpg";
     Mat img=imread(path);
     Mat imgGray;
-    cvtColor(img,imgGray,COLOR_BGR2GRAY);
+    
     resize(img,img,Size(480,640));
-    //resizeWindow("Test Image",300,400);
+    cvtColor(img,imgGray,COLOR_BGR2GRAY);
     namedWindow("Test Image",WINDOW_AUTOSIZE);
     imshow("Test Image",img);
-    //
+    imshow("GrayScale",imgGray);
     waitKey(); 
     /*imshow("Imgage",imgGray);*/
     /*namedWindow("Test Image");
