@@ -1,9 +1,0 @@
-D:/28_GitHub/ComputerVision/TwoImgFilter/build/CMakeFiles/Experimental.dir
-D:/28_GitHub/ComputerVision/TwoImgFilter/build/CMakeFiles/Nightly.dir
-D:/28_GitHub/ComputerVision/TwoImgFilter/build/CMakeFiles/Continuous.dir
-D:/28_GitHub/ComputerVision/TwoImgFilter/build/CMakeFiles/NightlyMemoryCheck.dir
-D:/28_GitHub/ComputerVision/TwoImgFilter/build/CMakeFiles/twoImgFilter.dir
-D:/28_GitHub/ComputerVision/TwoImgFilter/build/CMakeFiles/PACKAGE.dir
-D:/28_GitHub/ComputerVision/TwoImgFilter/build/CMakeFiles/RUN_TESTS.dir
-D:/28_GitHub/ComputerVision/TwoImgFilter/build/CMakeFiles/ALL_BUILD.dir
-D:/28_GitHub/ComputerVision/TwoImgFilter/build/CMakeFiles/ZERO_CHECK.dir

@@ -24,8 +24,7 @@ int main(){
     Mat cannyImg;
     Canny(imgGray,cannyImg,25,75);
     imshow("Canny Edge",cannyImg);
-    //imshow("Gaussian",img);
+    
     waitKey();
-    /*destroyAllWindows();*/
     return 0;
 }
