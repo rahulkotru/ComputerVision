@@ -16,16 +16,12 @@ int main(){
     namedWindow("Test Image",WINDOW_AUTOSIZE);
     imshow("Test Image",img);
     imshow("GrayScale",imgGray);
-    waitKey(); 
-    /*imshow("Imgage",imgGray);*/
-    /*namedWindow("Test Image");
-    waitKey(1000); 
+     
     Mat destImg;
-    GaussianBlur(img,imgGray,Size(7,7),5,0);
-    namedWindow("Gaussian Test Image");
-    //imshow("Gaussian",imgGray);
-    waitKey(1000);
-
+    GaussianBlur(img,destImg,Size(7,7),5,0);
+    imshow("Gaussian",destImg);
+    waitKey();
+    
     Canny(imgGray,img,25,75);
     namedWindow("Canny Test Image");
     //imshow("Gaussian",img);
