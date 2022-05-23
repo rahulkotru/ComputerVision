@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\28_GitHub\ComputerVision\ThreeConvolution\build\CMakeFiles\f7df7f275b050c65e8de919d6634aff5\NightlyMemoryCheck.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\28_GitHub\ComputerVision\ThreeConvolution\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\28_GitHub\ComputerVision\ThreeConvolution\build\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8FAF8694-8DA1-38CA-8A70-3529225AF74D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
