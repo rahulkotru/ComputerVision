@@ -6,5 +6,6 @@
 using namespace std;
 using namespace cv;
     int main(){
-        Mat img=imread("test.jpg");
+        Mat img=imread("D:/28_GitHub/ComputerVision/TwoImgFilter/asset/test.jpg");
+        
     }
