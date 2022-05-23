@@ -20,10 +20,10 @@ int main(){
     Mat destImg;
     GaussianBlur(img,destImg,Size(7,7),5,0);
     imshow("Gaussian",destImg);
-    waitKey();
     
-    Canny(imgGray,img,25,75);
-    namedWindow("Canny Test Image");
+    Mat cannyImg;
+    Canny(imgGray,cannyImg,25,75);
+    imshow("Canny Edge",cannyImg);
     //imshow("Gaussian",img);
     waitKey();*/
     /*destroyAllWindows();*/
