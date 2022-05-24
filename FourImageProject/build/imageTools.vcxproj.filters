@@ -4,11 +4,22 @@
     <ClCompile Include="D:\28_GitHub\ComputerVision\FourImageProject\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\28_GitHub\ComputerVision\FourImageProject\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\28_GitHub\ComputerVision\FourImageProject\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\28_GitHub\ComputerVision\FourImageProject\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{77B705B7-D25A-31E1-81AA-B188266C172B}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{FE42860D-9540-3406-8D40-1E9E4A18E5B0}</UniqueIdentifier>
     </Filter>

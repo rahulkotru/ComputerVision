@@ -8,8 +8,10 @@ find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
 
-add_executable(imageTools main.cpp)
-add_executable(imageTool1 image.cpp)
+add_executable(imageTools main.cpp
+image.cpp
+image.h)
+
 
 
 target_link_libraries( imageTools ${OpenCV_LIBS} )

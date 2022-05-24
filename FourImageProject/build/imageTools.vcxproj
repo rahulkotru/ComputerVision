@@ -314,6 +314,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\28_GitHub\ComputerVision\FourImageProject\main.cpp" />
+    <ClCompile Include="D:\28_GitHub\ComputerVision\FourImageProject\image.cpp" />
+    <ClInclude Include="D:\28_GitHub\ComputerVision\FourImageProject\image.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\28_GitHub\ComputerVision\FourImageProject\build\ZERO_CHECK.vcxproj">
