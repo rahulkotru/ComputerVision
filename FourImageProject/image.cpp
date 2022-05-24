@@ -5,7 +5,10 @@
 
 
 class image{
+    public:
+    cv::Mat img;
+
     auto readImage(std::string address){
-        auto image1= cv::imread(address);
+        img = cv::imread(address);
     }
 };
