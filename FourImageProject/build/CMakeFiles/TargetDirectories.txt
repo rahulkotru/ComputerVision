@@ -1,0 +1,10 @@
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/Experimental.dir
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/Nightly.dir
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/Continuous.dir
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/imageTools.dir
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/imageTool1.dir
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/PACKAGE.dir
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/RUN_TESTS.dir
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/ALL_BUILD.dir
+D:/28_GitHub/ComputerVision/FourImageProject/build/CMakeFiles/ZERO_CHECK.dir

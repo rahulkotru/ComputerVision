@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\28_GitHub\ComputerVision\FourImageProject\build\CMakeFiles\3ca30dd8701194cc10c37dffeef4d7a9\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3B97F32F-4FB9-3485-8691-887E88A98E4A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
