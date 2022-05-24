@@ -6,6 +6,6 @@
 
 class image{
     auto readImage(std::string address){
-        
+        auto image1= cv::imread(address);
     }
 };
