@@ -4,8 +4,5 @@
 #include<opencv2/imgproc.hpp>
 
 class image{
-    
-}
-int image{
 
 }
