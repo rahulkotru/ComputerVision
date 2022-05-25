@@ -20,7 +20,7 @@
         cv::imshow("Image Object", img);
         cv::waitKey();
     }
-    void image::gaussianFilter(int kernelSize, std::string name){
+    void image::gaussianFilter(int kernelSize){
 
     }
 
