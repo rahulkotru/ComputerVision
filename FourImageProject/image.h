@@ -9,5 +9,6 @@ class image{
     image();
     void readImage(std::string address);
     void showImage();
+    void Filter();
 };
 #endif
