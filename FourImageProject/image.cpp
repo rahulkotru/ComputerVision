@@ -20,8 +20,8 @@
         cv::imshow("Image Object", img);
         cv::waitKey();
     }
-    void image::filter(){
-        
+    void image::Filter(){
+
     }
 
 
