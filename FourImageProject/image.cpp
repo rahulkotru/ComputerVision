@@ -17,7 +17,7 @@
     {
         cv::resize(img, img, cv::Size(480,640));
         cv::namedWindow("Image Object", cv::WINDOW_AUTOSIZE);
-        cv::imshow("Image Window", img);
+        cv::imshow("Image Object", img);
         cv::waitKey();
     }
 
