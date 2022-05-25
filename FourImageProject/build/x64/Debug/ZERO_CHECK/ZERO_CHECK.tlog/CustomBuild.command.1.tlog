@@ -1,0 +1,10 @@
+^D:\28_GITHUB\COMPUTERVISION\FOURIMAGEPROJECT\BUILD\CMAKEFILES\3CA30DD8701194CC10C37DFFEEF4D7A9\GENERATE.STAMP.RULE
+setlocal
+D:\15_MinGW\CMake\bin\cmake.exe -SD:/28_GitHub/ComputerVision/FourImageProject -BD:/28_GitHub/ComputerVision/FourImageProject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/28_GitHub/ComputerVision/FourImageProject/build/imageTools.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
