@@ -1,20 +1,24 @@
 #include <iostream>
-#include <opencv2/highgui.hpp>
-#include <opencv2/imgcodecs.hpp>
-#include <opencv2/imgproc.hpp>
+#include "image.h"
 
 
-class image{
-    public:
-    cv::Mat img;
 
-    void readImage(std::string address){
-        img = cv::imread(address);
+    image::image()
+    {
+        std::cout<<"Create new Image object"<<std::endl;
     }
-    void showImage(){
-        cv::resize(img,img,cv::Size(640,480));
-        cv::namedWindow("Image Object",cv::WINDOW_AUTOSIZE);
+    
+    void image::readImage(std::string address)
+    {
+        img = cv::imread(address);
+        std::cout<<"Create new Image object"<<std::endl;
+    }
+    void image::showImage()
+    {
+        cv::resize(img, img, cv::Size(480,640));
+        cv::namedWindow("Image Object", cv::WINDOW_AUTOSIZE);
         cv::imshow("Image Window", img);
         cv::waitKey();
     }
-};
+
+
